@@ -4,7 +4,7 @@ import play from "../assets/Play.png";
 import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 
-const ShopButton = styled(Button)({
+const ShopNowButton = styled(Button)({
   background: "#1C2A2F",
   color: "white",
   padding: "15px 30px",
@@ -24,9 +24,9 @@ const Hero = () => {
           Beauty and functionality
         </p>
         <div className="mt-12">
-          <ShopButton endIcon={<img src={vector} width="20px" alt="" />}>
+          <ShopNowButton endIcon={<img src={vector} width="20px" alt="" />}>
             Shop Now
-          </ShopButton>
+          </ShopNowButton>
           <Button
             size="large"
             startIcon={<img src={play} width="35px" alt="" />}
