@@ -11,6 +11,13 @@ const ShopButton = styled(Button)({
   borderRadius: "24px",
   textTransform: "none",
 });
+const MoreButton = styled(Button)({
+    color: "#F8FBFB",
+    background: "#1C2A2F",
+    padding: "15px 30px",
+    borderRadius: "30px",
+    textTransform: "none",
+  });
 
 const Shop = () => {
   return (
@@ -48,7 +55,7 @@ const Shop = () => {
         <Furniture />
         <Furniture /> */}
           </div>
-          <div><ShopButton>See More</ShopButton></div>
+          <div><MoreButton>See More</MoreButton></div>
     </div>
   );
 };
