@@ -7,12 +7,12 @@ import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 
 const MoreButton = styled(Button)({
-    color: "#F8FBFB",
-    background: "#1C2A2F",
-    padding: "15px 30px",
-    borderRadius: "30px",
-    textTransform: "none",
-  });
+  color: "#F8FBFB",
+  background: "#1C2A2F",
+  padding: "15px 30px",
+  borderRadius: "30px",
+  textTransform: "none",
+});
 
 const Service = () => {
   return (
@@ -20,7 +20,7 @@ const Service = () => {
       <p className="text-4xl text-center">Our Services & Benefits</p>
       <div className="flex mt-16">
         <div className="flex flex-wrap justify-between">
-          <div style={{maxWidth: '270px'}}>
+          <div style={{ maxWidth: "270px" }}>
             <img src={services2} alt="" />
             <p className="text-3xl mt-6">Fast & Free Shipping</p>
             <p className="text-xl font-light mt-6">
@@ -28,14 +28,14 @@ const Service = () => {
               from USA.
             </p>
           </div>
-          <div style={{maxWidth: '270px'}}>
+          <div style={{ maxWidth: "270px" }}>
             <img src={services4} alt="" />
             <p className="text-3xl mt-6">24/7 Support</p>
             <p className="text-xl font-light mt-6">
               24/7 support is a kind of support that is available throughout.
             </p>
           </div>
-          <div style={{maxWidth: '270px'}}>
+          <div style={{ maxWidth: "270px" }}>
             <img src={services3} alt="" />
             <p className="text-3xl mt-6">Hassle Free Returns</p>
             <p className="text-xl font-light mt-6">
@@ -43,7 +43,7 @@ const Service = () => {
               other eligible items.
             </p>
           </div>
-          <div style={{maxWidth: '270px'}}>
+          <div style={{ maxWidth: "270px" }}>
             <img src={services1} alt="" />
             <p className="text-3xl mt-6">Your Best Price Matching</p>
             <p className="text-xl font-light mt-6">
@@ -52,8 +52,8 @@ const Service = () => {
           </div>
         </div>
         <img src={services} width="500px" className="ml-4" alt="" />
-          </div>
-          <MoreButton>Know More</MoreButton>
+      </div>
+      <MoreButton>Know More</MoreButton>
     </div>
   );
 };

@@ -21,7 +21,7 @@ const Customer = () => {
             ante sit neque sagittis nibh massa. In commodo nisl mattis et amet
             diam orci pharetra.
           </p>
-          <img src={star} width='150px' className="mt-5" alt="" />
+          <img src={star} width="150px" className="mt-5" alt="" />
           <p className="text-xl mt-3">Oyeniyi Adedoyin</p>
           <p className="mt-3">Digital Marketer</p>
         </div>

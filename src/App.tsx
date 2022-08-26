@@ -5,16 +5,15 @@ import Service from "./components/service";
 import Shop from "./components/shop";
 import Sponsors from "./components/sponsors";
 
-
 function App() {
   return (
     <div className="App">
-      <NavBar/>
+      <NavBar />
       <Hero />
       <Shop />
       <Service />
       <Customer />
-      <Sponsors/>
+      <Sponsors />
     </div>
   );
 }
