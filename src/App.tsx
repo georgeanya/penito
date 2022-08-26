@@ -1,3 +1,4 @@
+import Customer from "./components/customer";
 import Hero from "./components/hero";
 import NavBar from "./components/navbar";
 import Service from "./components/service";
@@ -10,7 +11,8 @@ function App() {
       <NavBar/>
       <Hero />
       <Shop />
-      <Service/>
+      <Service />
+      <Customer/>
     </div>
   );
 }
