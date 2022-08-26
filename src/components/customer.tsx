@@ -3,8 +3,8 @@ import star from "../assets/star.png";
 
 const Customer = () => {
   return (
-    <div className="bg-[#FAFAFA] px-40 mt-20">
-      <p className="text-4xl pt-20">Our Customer Say</p>
+    <div className="bg-[#FAFAFA] px-40 py-20">
+      <p className="text-4xl ">Our Customer Say</p>
       <div className="flex mt-12">
         <div>
           <p className="text-base">

@@ -3,6 +3,7 @@ import Hero from "./components/hero";
 import NavBar from "./components/navbar";
 import Service from "./components/service";
 import Shop from "./components/shop";
+import Sponsors from "./components/sponsors";
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       <Hero />
       <Shop />
       <Service />
-      <Customer/>
+      <Customer />
+      <Sponsors/>
     </div>
   );
 }

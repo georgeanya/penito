@@ -16,7 +16,7 @@ const MoreButton = styled(Button)({
 
 const Service = () => {
   return (
-    <div className="mx-40 mt-16">
+    <div className="mx-40 my-16">
       <p className="text-4xl text-center">Our Services & Benefits</p>
       <div className="flex mt-16">
         <div className="flex flex-wrap justify-between">
@@ -51,7 +51,7 @@ const Service = () => {
             </p>
           </div>
         </div>
-        <img src={services} width="500px" alt="" />
+        <img src={services} width="500px" className="ml-4" alt="" />
           </div>
           <MoreButton>Know More</MoreButton>
     </div>
